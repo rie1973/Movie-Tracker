@@ -253,11 +253,11 @@ public class MovieTracker extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Success");
             setVisible(false);
             new InsertData().setVisible(true);
-
         }
         catch (HeadlessException | IOException e){
             JOptionPane.showMessageDialog(null, "Error");
         }
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
@@ -294,9 +294,6 @@ public class MovieTracker extends javax.swing.JFrame {
         //</editor-fold>
         //</editor-fold>
         //</editor-fold>
-
-       
-        
         
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -332,8 +329,6 @@ public class MovieTracker extends javax.swing.JFrame {
         jTextField1.setText("");
         
     }
-
-    
 
     private static class stream {
 
