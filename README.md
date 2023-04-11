@@ -1,8 +1,6 @@
 
 # WatchMe GUI Application
-
-A brief description of what this project does and who it's for
-This project will create a list of movies (with release date, where to watch, and have a link to the trailer on YouTube).
+This project will create a list of movies (with release date, where to watch, and  a link to the trailer on YouTube).
 
 Anyone who watches movies, streaming shows, or scheduled online content can use this application. 
 
@@ -19,7 +17,7 @@ Anyone who watches movies, streaming shows, or scheduled online content can use 
 
 
 ## 🚀 About Me
-I'm a full stack developer with knowledge of JAVA, HTML5/CSS, Python, C Programming. 
+I'm a software developer with knowledge of JAVA, HTML5/CSS, Python, and C Programming. 
 
 
 ## License
