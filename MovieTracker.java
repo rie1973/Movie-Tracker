@@ -333,13 +333,5 @@ public class MovieTracker extends javax.swing.JFrame {
         jTextField1.setText("");
         
     }
-
-    private static class stream {
-
-        public stream() {
-        }
-    }
-
-    
-
+   
 }
