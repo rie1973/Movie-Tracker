@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 26, 2023, 12:58:00 PM
+    Author     : annms
+*/
+@charset "utf-8";
+
+/* 
+    Created on : May 26 2023, 2:59:37 PM
+    Author     : Ann Smith
+    Comment:  CSS for form page
+*/
+html {
+    background: linear-gradient(to top, #ff6600 30%, #000000 95%);
+    height: 100%;
+}
+
+h1 {
+    color: rgb(174, 101, 6);
+    padding: 20px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin: -340px 0 0 -170px;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+table.table {
+    width: 800px;
+    height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    margin: -60px 0 0 -170px;
+}
+
+/* Parameters for table border*/
+table.table th
+{
+    padding: 3px 2px;
+    font-size: 40px;
+    text-align: left;
+} 
+
+table.table td,
+{
+    padding: 3px 2px;
+    font-size: 40px;
+    text-align: left;
+}
+
+/* Parameters for table body*/
+table.table tbody tr {
+    font-size: 40px;
+    font-weight: bold;
+}    
+
+/* Parameters for drop down menu*/
+table.table tbody tr td {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+table.table tbody tr td option{
+    font-size: 25px;
+    font-weight: bold;
+}
+/* Parameters for table border*/
+table.table thead th {
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Parameters for table footer*/
+table.table tfoot {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-top: 2px solid #444444;
+}
+
+table.table tfoot td {
+    font-size: 20px;
+}
+
+/* Parameters for table submit/reset buttons*/
+table.table tfoot .links a {
+    display: inline-block;
+    background: #ffcc99;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+/* table input sections*/
+table.table input {
+    font-size: 18px;
+}
+
+/* Perimeters for  DivTable.com */
+table {
+    display: table;
+    width: 100%;
+}
+
+tableRow {
+    display: table-row;
+}
+
+tableHeading {
+    background-color: #ffcc99;
+    display: table-header-group;
+}
+
+tableCell,
+tableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+
+tableHeading {
+    background-color: #ffcc99;
+    display: table-header-group;
+    font-weight: bold;
+}
+
+tableFoot {
+    background-color: #ffcc99;
+    display: table-footer-group;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+tableBody {
+    display: table-row-group;
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<!-- my form page -->
+<html lang="en">
+
+<meta charset="utf-8">
+<title> "Watch Me" Page</title>
+<meta name="description" content="Ann Smith's Watch Me App">
+<meta name="keywords" content="Ann, movies, release date, tracker">
+<meta name="generator" content="Apache Netbeans (www.netbeans.apache.org)">
+<meta name="created" content="2023-05-25">
+<meta name="author" content="Ann Smith">
+<link href="presetCascadeStyleSheet.css" rel="stylesheet" />
+<link href="movieCascadeStyleSheet.css" rel="stylesheet" />
+
+</head>
+
+<html>
+
+<body>
+    <h1>Watch Me</h1>
+    <form name="movieApp" id="movieApp" action="http://www.rebol.com/cgi-bin/test-cgi.cgi" method="post">
+        <table class="table">
+
+            <tbody>
+                <tr>
+                    <td>Movie Title</td>
+                    <td><input type="text" id="movietitle" value="" style="width: 400px;" /></td>
+                </tr>
+
+                <tr>
+                    <td>Release Date</td>
+                    <td><input type="text" id="releasedate" value="" style="width: 400px;" /></td>
+                </tr>
+
+                <tr>
+                    <td>Notes</td>
+                    <td><input type="text" id="notes" value="" style="width: 400px;" /></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="streamservice">Streaming Service</label></td>
+
+                    <td>
+                        <select id="service" id="streamService" style="width: 400px;" />
+                        <option value="unsure">Not Sure Yet</option>
+                        <option value="netflix">Netflix</option>
+                        <option value="hbo">MAX</option>
+                        <option value="paramount">Apple TV</option>
+                        <option value="paramount">Prime Video</option>
+                        <option value="paramount">Hulu</option>
+                        <option value="paramount">Paramount+</option>
+                        <option value="paramount">Disney+</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>Trailer URL</th>
+                    <td><input type="text" id="trailerurl" value="" style="width: 400px;" /></td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th></th>
+                    <td colspan="1">
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset" />
+                </tr>
+            </tfoot>
+        </table>
+
+        <br />
+        <footer>
+            Last updated on May 25, 2023
+        </footer>
+
+       
+</body>
+
+</html>
